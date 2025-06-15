@@ -26,9 +26,8 @@ float PIB2 ;
 
 //ENTRADA DE DADOS _ CARTAS 
 //CARTA A01
-
-
  // dados de carta A01   
+
      printf("Cadastro da Carta 1:\n");
 
     printf("Estado: ");
@@ -81,7 +80,7 @@ float PIB2 ;
      //exibicao de Dados da carta 
      //saida de dados A01
      
-     printf("\n ======= CARTA A01 =======\n");
+     printf("\n ======= CARTA A01 ===========\n");
 
      printf("Estado:%s\n", Estado1);
 
@@ -101,7 +100,7 @@ float PIB2 ;
 
 //Saida de dados B02
 
-    printf("\n======= CARTA B02 =======\n");
+    printf("\n======= CARTA B02 ============\n");
 
     printf("Estado: %s\n", Estado2);
 
