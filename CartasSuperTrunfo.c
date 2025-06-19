@@ -13,6 +13,8 @@ int Populacao1 ;
 int Ponto_Turistico1 ;
 float Area1;
 float PIB1 ;
+float Densidade_Populacional1;
+float PIB_Percapita1;
 
 // DADOS DA CARTA B02
 
@@ -23,12 +25,14 @@ int Populacao2 ;
 int Pontos_Turisticos2;
 float Area2;
 float PIB2 ;
+float Densidade_Populacional2;
+float PIB_Percapita2;
 
 //ENTRADA DE DADOS _ CARTAS 
 //CARTA A01
  // dados de carta A01   
 
-     printf("Cadastro da Carta 1:\n");
+     printf("==========Cadastro da Carta 01 =============\n");
 
     printf("Estado: ");
     scanf(" %[^\n]", Estado1);
@@ -50,8 +54,13 @@ float PIB2 ;
   
      printf("pontos turisticos do Estado A01: \n");
      scanf("%d", &Ponto_Turistico1);
+
+      Densidade_Populacional1 = (float) (Populacao1 + Area1) /2;
+
+     PIB_Percapita1 = (float) (PIB1 + Populacao1 ) /2;
      
     //entrada de dados carta 2  
+
     
     printf("\nCadastro da Carta 2:\n");
 
@@ -76,6 +85,10 @@ float PIB2 ;
     printf("Pontos_turísticos do Estado : \n");
     scanf("%d", &Pontos_Turisticos2);
 
+     Densidade_Populacional2 = (float) (Populacao2 + Area2) /2;
+
+     PIB_Percapita2 = (float) (PIB2 + Populacao2 ) /2;
+
 
      //exibicao de Dados da carta 
      //saida de dados A01
@@ -94,7 +107,11 @@ float PIB2 ;
 
      printf("PIB: US$ %.2f trilhoes \n", PIB1 );
 
-     printf("numero de pontos turisticos: %d\n" , Ponto_Turistico1);   
+     printf("numero de pontos turisticos: %d\n" , Ponto_Turistico1);  
+     
+      printf("Densidade Populacional: %.2f\n", Densidade_Populacional1);
+
+     printf("PIB Peercapita: %.2f\n", PIB_Percapita1);
      
      printf("==============================\n");
 
@@ -115,6 +132,10 @@ float PIB2 ;
     printf("PIB: US$ %.2f bilhões\n", PIB2);
 
     printf("Pontos turísticos: %d\n", Pontos_Turisticos2);
+
+     printf("Densidade Populacional: %.2f\n", Densidade_Populacional2);
+
+     printf("PIB Percapita: %.2f\n", PIB_Percapita2);
     
     printf("=============================\n");
 
