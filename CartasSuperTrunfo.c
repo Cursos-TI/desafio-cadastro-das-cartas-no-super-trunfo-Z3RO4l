@@ -151,27 +151,40 @@ float SUPER_PODER2;
 
      printf("\n==================COMPARAÇÃO DE CARTAS==================\n");
 
-    printf("POPULAÇÃO : %s\n" ,(Populacao1 > Populacao2 ? "carta 1 venceu":  
-                                 (Populacao1 < Populacao2 ? "carta 2 venceu" : "Empate" )));
+    printf("POPULAÇÃO : %s\n" ,
+        (Populacao1 > Populacao2 ? "carta 1 venceu":  
+        (Populacao1 < Populacao2 ? "carta 2 venceu" : 
+        "Empate" )));
 
-    printf("AREA : %s\n", (Area1 > Area2 ? "carta 1 venceu":
-                           ( Area1 < Area2 ? "carta 2 venceu" : "Empate" )));
+    printf("AREA : %s\n", 
+        (Area1 > Area2 ? "carta 1 venceu":
+        ( Area1 < Area2 ? "carta 2 venceu" : 
+        "Empate" )));
 
     printf("PIB: %s\n", (PIB1 > PIB2 ? " carta 1 venceu":
-                          ( PIB1 < PIB2 ? " carta 2 venceu": "Empate" )));
+                        ( PIB1 < PIB2 ? " carta 2 venceu": 
+                        "Empate" )));
 
 
-    printf("PONTOS TURISTICOS : %s\n", (Ponto_Turistico1 > Pontos_Turisticos2 ?"carta 1 venceu" : 
-                                                     ( Ponto_Turistico1 < Pontos_Turisticos2 ? "carta 2 venceu": "Empate")));
+    printf("PONTOS TURISTICOS : %s\n",
+         (Ponto_Turistico1 > Pontos_Turisticos2 ?"carta 1 venceu" : 
+         ( Ponto_Turistico1 < Pontos_Turisticos2 ? "carta 2 venceu":
+         "Empate")));
 
-    printf("DENSIDADE POPULACIONAL : %s\n", ( Densidade_Populacional1 > Densidade_Populacional2 ? "carta 1 venceu" :
-                                                           (Densidade_Populacional1 < Densidade_Populacional2 ? "carta 2 venceu" :"Empate" )));
+    printf("DENSIDADE POPULACIONAL : %s\n", 
+        ( Densidade_Populacional1 > Densidade_Populacional2 ? "carta 1 venceu" :
+        (Densidade_Populacional1 < Densidade_Populacional2 ? "carta 2 venceu" :
+        "Empate" )));
 
-    printf(" PIB PER CAPTA :   %s\n", (PIB_Percapita1 > PIB_Percapita2 ? "carta 1 venceu":
-                                                    (PIB_Percapita1 < PIB_Percapita2 ? " carta 2 venceu": "Empate")));
+    printf(" PIB PER CAPTA :   %s\n", 
+        (PIB_Percapita1 > PIB_Percapita2 ? "carta 1 venceu":
+        (PIB_Percapita1 < PIB_Percapita2 ? " carta 2 venceu": 
+        "Empate")));
 
-    printf("SUPER PODER: %s\n", (SUPER_PODER1 > SUPER_PODER2 ? " carta 1 venceu" :
-                                  (SUPER_PODER1 < SUPER_PODER2 ? "carta 2 venceu": "Empate")));
+    printf("SUPER PODER: %s\n", 
+        (SUPER_PODER1 > SUPER_PODER2 ? " carta 1 venceu" :
+        (SUPER_PODER1 < SUPER_PODER2 ? "carta 2 venceu": 
+        "Empate")));
 
     printf("\n=====================================================\n");
 
