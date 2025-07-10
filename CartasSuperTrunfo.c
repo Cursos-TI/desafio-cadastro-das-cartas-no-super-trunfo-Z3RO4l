@@ -68,7 +68,7 @@ int main() {
 
     // Menu de seleção
     printf("\n========= MENU DE COMPARAÇÃO =========\n");
-    printf("Escolha o atributo para comparar:\n");
+    printf("Escolha um atributo para comparar:\n");
     printf("1 - População\n");
     printf("2 - Área\n");
     printf("3 - PIB\n");
